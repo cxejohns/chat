@@ -1,0 +1,43 @@
+<html>
+<head>
+    
+    <title>Chris Johns's Chatroom</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script type="text/javascript" src="js/jquery3.js"></script>
+    <script type="text/javascript" src="js/chat.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script>
+
+  //   $(window).on('beforeunload', function() {
+              //chat.send("xEXITx", name);
+               // chat.send("xEXITx", name);
+       //     });
+    </script>
+
+</head>
+
+<body onload="setInterval('chat.update()', 1000)" onbeforeunload="return 'we'">
+
+    <div id="page-wrap">
+    
+        <h2>Chris Johns's Chatroom</h2>
+        
+        <p id="name-area">cxejohns.com 2020</p>
+        
+        <div id="chat-wrap">
+            <div id="chat-area">
+
+            </div>
+        </div>
+        
+        <form id="send-message-area">
+            <p></p>
+            <textarea id="sendMess" placeholder="message" maxlength = '1000' ></textarea>
+            <button id="sendMessBtn">Send</button>
+        </form>
+    
+    </div>
+
+</body>
+
+</html>
